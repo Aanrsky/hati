@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Kecil Untukmu 💗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="hearts"></div>
+
+<main>
+
+    <!-- ========================= -->
+    <!-- OPENING -->
+    <!-- ========================= -->
+
+    <section id="home" class="screen">
+
+        <div class="intro-card">
+
+            <div class="sparkle">✦</div>
+
+            <p class="mini-title">
+                ada sesuatu buat kamu...
+            </p>
+
+            <div class="gift" id="gift">
+                <div class="gift-ribbon"></div>
+                <div class="gift-lid"></div>
+                <div class="gift-box"></div>
+            </div>
+
+            <h1>
+                Jangan dibuka<br>
+                kalau kamu<br>
+                nggak penasaran 👀
+            </h1>
+
+            <button id="openButton" class="main-button">
+                Buka dong 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- LETTER -->
+    <!-- ========================= -->
+
+    <section id="letter" class="screen hidden">
+
+        <div class="paper">
+
+            <div class="paper-tape"></div>
+
+            <span class="paper-heart">♥</span>
+
+            <p class="tiny">
+                SURAT RAHASIA
+            </p>
+
+            <h2>
+                Hai kamu...
+            </h2>
+
+            <p id="typingText" class="letter-text"></p>
+
+            <button id="letterNext" class="main-button">
+                Lanjut baca 💗
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- QUESTION -->
+    <!-- ========================= -->
+
+    <section id="question" class="screen hidden">
+
+        <div class="question-card">
+
+            <div class="cat">
+                /\_/\\
+                <br>
+                ( o.o )
+                <br>
+                > ^ <
+            </div>
+
+            <p class="tiny">
+                PERTANYAAN PALING PENTING
+            </p>
+
+            <h2>
+                Kalau aku ngajak<br>
+                kamu ngobrol<br>
+                lebih sering...
+            </h2>
+
+            <p class="question-sub">
+                kamu keberatan nggak? 🥺
+            </p>
+
+            <div id="buttonArea" class="button-area">
+
+                <button id="noButton" class="answer no">
+                    Nggak dulu 😭
+                </button>
+
+                <button id="yesButton" class="answer yes">
+                    Boleh 💗
+                </button>
+
+            </div>
+
+            <p id="noMessage" class="funny-message"></p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- MINI GAME -->
+    <!-- ========================= -->
+
+    <section id="game" class="screen hidden">
+
+        <div class="game-card">
+
+            <p class="tiny">
+                MINI GAME
+            </p>
+
+            <h2>
+                Tangkap 5 hati! 💕
+            </h2>
+
+            <p class="game-info">
+                Klik hati yang muncul sebelum dia kabur.
+            </p>
+
+            <div id="gameArea" class="game-area">
+                <div id="gameStart">
+                    <button id="startGame" class="main-button">
+                        Mulai permainan
+                    </button>
+                </div>
+            </div>
+
+            <div class="score">
+                Hati:
+                <strong id="score">0</strong>
+                / 5
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ========================= -->
+    <!-- FINAL -->
+    <!-- ========================= -->
+
+    <section id="final" class="screen hidden">
+
+        <div class="final-card">
+
+            <div class="big-heart">
+                ♥
+            </div>
+
+            <p class="tiny">
+                PESAN TERAKHIR
+            </p>
+
+            <h1>
+                Yeay! 💗
+            </h1>
+
+            <p class="final-text">
+                Kalau kamu sampai di sini,
+                berarti kamu berhasil menemukan
+                pesan kecil ini.
+            </p>
+
+            <div class="quote">
+                “Kadang seseorang nggak perlu
+                datang dengan cara yang besar.
+                Cukup hadir dan bikin hari
+                terasa sedikit lebih menyenangkan.”
+            </div>
+
+            <p class="small-love">
+                Terima kasih sudah meluangkan
+                waktu untuk membuka ini. ♡
+            </p>
+
+            <div class="final-buttons">
+
+                <button id="againButton" class="main-button">
+                    Lihat lagi 💌
+                </button>
+
+                <button id="heartButton" class="secondary-button">
+                    Kirim hati ♥
+                </button>
+
+            </div>
+
+            <p id="finalStatus"></p>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
